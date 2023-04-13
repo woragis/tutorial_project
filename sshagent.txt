@@ -1,0 +1,4 @@
+agent pid 664
+
+eval "$(ssh-agent -s)"
+ssh-add sshkey.txt
